@@ -14,7 +14,7 @@
 
 我们已经在[初始化和清理 ]() 这章中看到，调用 enum 的 values() 方法，可以遍历 enum 实例 .values() 方法返回 enum 实例的数组，而且该数组中的元素严格保持其在 enum 中声明时的顺序，因此你可以在循环中使用 values() 返回的数组。
 
-创建 enum 时，编译器会为你生成一个相关的类，这个类继承自 Java.lang.Enum。下面的例子演示了 Enum 提供的一些功能：
+创建 enum 时，编译器会为你生成一个相关的类，这个类继承自 java.lang.Enum。下面的例子演示了 Enum 提供的一些功能：
 
 ```java
 // enums/EnumClass.java
